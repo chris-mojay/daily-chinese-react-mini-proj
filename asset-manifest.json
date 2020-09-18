@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/daily-chinese-react-mini-proj/static/css/main.926631dc.chunk.css",
-    "main.js": "/daily-chinese-react-mini-proj/static/js/main.58cb3dd1.chunk.js",
-    "main.js.map": "/daily-chinese-react-mini-proj/static/js/main.58cb3dd1.chunk.js.map",
+    "main.js": "/daily-chinese-react-mini-proj/static/js/main.90015a5b.chunk.js",
+    "main.js.map": "/daily-chinese-react-mini-proj/static/js/main.90015a5b.chunk.js.map",
     "runtime-main.js": "/daily-chinese-react-mini-proj/static/js/runtime-main.3b9ee758.js",
     "runtime-main.js.map": "/daily-chinese-react-mini-proj/static/js/runtime-main.3b9ee758.js.map",
     "static/js/2.40f440ed.chunk.js": "/daily-chinese-react-mini-proj/static/js/2.40f440ed.chunk.js",
     "static/js/2.40f440ed.chunk.js.map": "/daily-chinese-react-mini-proj/static/js/2.40f440ed.chunk.js.map",
     "index.html": "/daily-chinese-react-mini-proj/index.html",
-    "precache-manifest.080ecbbb3215d526a40b5f2fed369ac1.js": "/daily-chinese-react-mini-proj/precache-manifest.080ecbbb3215d526a40b5f2fed369ac1.js",
+    "precache-manifest.1ae49a5e14bd54070b9589280421dd7e.js": "/daily-chinese-react-mini-proj/precache-manifest.1ae49a5e14bd54070b9589280421dd7e.js",
     "service-worker.js": "/daily-chinese-react-mini-proj/service-worker.js",
     "static/css/main.926631dc.chunk.css.map": "/daily-chinese-react-mini-proj/static/css/main.926631dc.chunk.css.map",
     "static/js/2.40f440ed.chunk.js.LICENSE.txt": "/daily-chinese-react-mini-proj/static/js/2.40f440ed.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.3b9ee758.js",
     "static/js/2.40f440ed.chunk.js",
     "static/css/main.926631dc.chunk.css",
-    "static/js/main.58cb3dd1.chunk.js"
+    "static/js/main.90015a5b.chunk.js"
   ]
 }

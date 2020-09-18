@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cd05dcf8cc2a9ceb125046f659fa9e1",
+    "revision": "2fb126385a009cd5b71a3c643efacada",
     "url": "/daily-chinese-react-mini-proj/index.html"
   },
   {
-    "revision": "edc5c79cad8dd36b1cf4",
+    "revision": "710a6e59ab541e83fe20",
     "url": "/daily-chinese-react-mini-proj/static/css/main.926631dc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/daily-chinese-react-mini-proj/static/js/2.40f440ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "edc5c79cad8dd36b1cf4",
-    "url": "/daily-chinese-react-mini-proj/static/js/main.58cb3dd1.chunk.js"
+    "revision": "710a6e59ab541e83fe20",
+    "url": "/daily-chinese-react-mini-proj/static/js/main.90015a5b.chunk.js"
   },
   {
     "revision": "3925f152ee73fc151b39",
