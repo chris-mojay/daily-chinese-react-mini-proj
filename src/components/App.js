@@ -29,7 +29,7 @@ class App extends React.Component {
       <React.Fragment>
         <Header handleToggle={this.handleToggle} isToggleOn={this.state.mode} />
         <Review />
-        {this.state.mode === 'dark' && <img src={img} className='char-bg' />}
+         <img src={img} style={this.state.mode === 'dark' ? {opacity: 1} : {opacity: 0}} className='char-bg' />
       </React.Fragment>
     )
   }
