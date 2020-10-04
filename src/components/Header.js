@@ -5,12 +5,12 @@ import WbSunnyIcon from '@material-ui/icons/WbSunny'
 import NightsStayIcon from '@material-ui/icons/NightsStay'
 import { useStyles } from '../themes.js'
 
-function SwitchIcon(props) {
+function SwitchIcon({icon}) {
   const classes = useStyles()
 
   return (
     <div className='switch-icon-container'>
-      {props.icon === 'light'
+      {icon === 'light'
         ? <WbSunnyIcon fontSize="large" />
         : <NightsStayIcon className={classes.darkModeIcon} fontSize="large" />
       }
@@ -18,7 +18,7 @@ function SwitchIcon(props) {
   )
 }
 
-const Header = (props) => {
+export default function Header ({isToggleOn, handleToggle}) {
   const classes = useStyles()
 
   return (
@@ -26,19 +26,17 @@ const Header = (props) => {
       <Logo className='logo' />
       <div className='switch-wrapper'>
         <SwitchIcon
-          icon={props.isToggleOn}
+          icon={isToggleOn}
         />
-        {props.isToggleOn === 'light' ?
+        {isToggleOn === 'light' ?
           <Switch
-            onChange={props.handleToggle}
+            onChange={handleToggle}
             classes={{ colorSecondary: classes.colorSecondary, checked: classes.checked }} />
           : <Switch
-            onChange={props.handleToggle}
+            onChange={handleToggle}
             classes={{ colorSecondary: classes.colorSecondary, checked: classes.checked, track: classes.track }} />
         }
       </div>
     </header>
   );
 }
-
-export { Header }

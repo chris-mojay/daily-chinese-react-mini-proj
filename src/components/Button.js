@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export default function Button(props) {
+export default function Button({className, label, handleClick}) {
     return (
-        <button className={props.className} value={props.label} onClick={props.onClick}>
-            {props.label}
+        <button className={className} value={label} onClick={handleClick}>
+            {label}
         </button>
     )
 }
