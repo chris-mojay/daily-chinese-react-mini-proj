@@ -8,38 +8,52 @@ const getWord = () => {
     return words[Math.floor(Math.random() * words.length)]
 }
 
+const reducer = (state, action) => {
+    if (action.type === 'show-word') {
+        return {
+            ...state,
+            word: getWord(),
+            show: true
+        }
+    } else if (action.type === 'dismiss-word') {
+        return {
+            ...state,
+            show: false
+        }
+    } else {
+        throw new Error ('This is not a valid action')
+    }
+}
+
 export default function Review () {
-    const [show, setShow] = React.useState(true)
-    const [word, setWord] = React.useState(getWord())
+    const [state, dispatch] = React.useReducer(
+        reducer, 
+        {
+            show: true, 
+            word: getWord()
+        }
+    )
     const buttonSelectedClass = React.useRef(null)
 
     const handleClick = (e) => {
-        setShow(false)
         buttonSelectedClass.current = e.target.value === 'Incorrect' ? 'card-left-' : 'card-right-'
+        dispatch({type: 'dismiss-word'})
     }
-
-    const newWord = () => {
-        setWord(() => getWord())
-    }
-
-    React.useEffect(() => {
-        setShow(true)
-    }, [word])
 
     return (
         <div className='review-wrapper'>
             <CSSTransition
-                in={show}
+                in={state.show}
                 timeout={500}
                 classNames={buttonSelectedClass.current}
                 unmountOnExit={true}
-                onExited={() => newWord()}
+                onExited={() => dispatch({type: 'show-word'})}
             >
                 <Card
-                    chinese={word.chinese}
-                    defintiion={word.definition}
-                    pinyin={word.pinyin}
-                    key={word.chinese}
+                    chinese={state.word.chinese}
+                    defintiion={state.word.definition}
+                    pinyin={state.word.pinyin}
+                    key={state.word.chinese}
                 />
             </CSSTransition>
             <div className='button-wrapper'>
