@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/daily-chinese-react-mini-proj/static/css/main.926631dc.chunk.css",
-    "main.js": "/daily-chinese-react-mini-proj/static/js/main.35d831e4.chunk.js",
-    "main.js.map": "/daily-chinese-react-mini-proj/static/js/main.35d831e4.chunk.js.map",
+    "main.js": "/daily-chinese-react-mini-proj/static/js/main.fab3863d.chunk.js",
+    "main.js.map": "/daily-chinese-react-mini-proj/static/js/main.fab3863d.chunk.js.map",
     "runtime-main.js": "/daily-chinese-react-mini-proj/static/js/runtime-main.3b9ee758.js",
     "runtime-main.js.map": "/daily-chinese-react-mini-proj/static/js/runtime-main.3b9ee758.js.map",
-    "static/js/2.e8f59e2c.chunk.js": "/daily-chinese-react-mini-proj/static/js/2.e8f59e2c.chunk.js",
-    "static/js/2.e8f59e2c.chunk.js.map": "/daily-chinese-react-mini-proj/static/js/2.e8f59e2c.chunk.js.map",
+    "static/js/2.7f131c95.chunk.js": "/daily-chinese-react-mini-proj/static/js/2.7f131c95.chunk.js",
+    "static/js/2.7f131c95.chunk.js.map": "/daily-chinese-react-mini-proj/static/js/2.7f131c95.chunk.js.map",
     "index.html": "/daily-chinese-react-mini-proj/index.html",
-    "precache-manifest.68d952e97f271fcda4344bd0c3adf780.js": "/daily-chinese-react-mini-proj/precache-manifest.68d952e97f271fcda4344bd0c3adf780.js",
+    "precache-manifest.5f4c1c238392db96e726cdda32f6277e.js": "/daily-chinese-react-mini-proj/precache-manifest.5f4c1c238392db96e726cdda32f6277e.js",
     "service-worker.js": "/daily-chinese-react-mini-proj/service-worker.js",
     "static/css/main.926631dc.chunk.css.map": "/daily-chinese-react-mini-proj/static/css/main.926631dc.chunk.css.map",
-    "static/js/2.e8f59e2c.chunk.js.LICENSE.txt": "/daily-chinese-react-mini-proj/static/js/2.e8f59e2c.chunk.js.LICENSE.txt",
+    "static/js/2.7f131c95.chunk.js.LICENSE.txt": "/daily-chinese-react-mini-proj/static/js/2.7f131c95.chunk.js.LICENSE.txt",
     "static/media/char_bg.png": "/daily-chinese-react-mini-proj/static/media/char_bg.90431bdb.png",
     "static/media/daily_chinese_horizontal.e22b7827.svg": "/daily-chinese-react-mini-proj/static/media/daily_chinese_horizontal.e22b7827.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3b9ee758.js",
-    "static/js/2.e8f59e2c.chunk.js",
+    "static/js/2.7f131c95.chunk.js",
     "static/css/main.926631dc.chunk.css",
-    "static/js/main.35d831e4.chunk.js"
+    "static/js/main.fab3863d.chunk.js"
   ]
 }
